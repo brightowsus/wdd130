@@ -110,7 +110,6 @@ footer p {
 
 /* Mobile responsive design */
 @media screen and (max-width: 600px) {
-
     body {
         padding: 18px 8px;
     }
