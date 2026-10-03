@@ -1,0 +1,140 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 18px 8px;
+    background-color: white;
+    color: #111;
+}
+
+/* Header */
+header {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Main content */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 14px 0;
+}
+
+/* Temple image */
+picture {
+    display: block;
+    text-align: center;
+}
+
+picture img {
+    width: 268px;
+    height: auto;
+    display: block;
+    margin: 0 auto 22px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* Information sections */
+section {
+    background-color: #dddddd;
+    padding: 14px 13px;
+    margin-bottom: 14px;
+}
+
+section h2 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #777777;
+}
+
+section p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 8px;
+}
+
+section ul {
+    font-size: 11px;
+    line-height: 1.5;
+    padding-left: 18px;
+    margin-bottom: 0;
+}
+
+section li {
+    margin-bottom: 2px;
+}
+
+/* Link */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+/* Footer */
+footer {
+    max-width: 500px;
+    margin: 14px auto 0;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 11px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 18px 8px;
+    }
+
+    header,
+    main,
+    footer {
+        width: 100%;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    picture img {
+        width: 70%;
+        max-width: 268px;
+    }
+
+    section {
+        padding: 14px;
+    }
+}
