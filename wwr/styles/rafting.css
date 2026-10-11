@@ -1,0 +1,153 @@
+/* CSS Variables */
+:root {
+    --primary-color: #055a8c;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: Georgia, "Times New Roman", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Page Width and Centering */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Heading Styling */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* General Spacing */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+header > img {
+    width: 120px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* Hero Container */
+.hero {
+    position: relative;
+}
+
+/* Hero Image */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero Heading Overlay */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+/* Article Overlay */
+.hero article {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--accent1-color);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin: 0 0 10px 10px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero article p {
+    margin: 0;
+}
+
+/* History and Adventure Sections */
+section h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+section {
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid var(--secondary-color);
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
