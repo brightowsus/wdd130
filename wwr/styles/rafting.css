@@ -52,6 +52,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
+    color: var(--accent2-color);
     color: #ffffff;
 }
 
@@ -69,6 +70,7 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 8px;
+    color: var(--accent2-color);
 }
 
 /* Hero Container */
