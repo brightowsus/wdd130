@@ -1,0 +1,140 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #111;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Heading */
+header {
+    max-width: 660px;
+    margin: 0 auto 16px;
+}
+
+h1 {
+    color: #000066;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Quiz form container */
+main {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #eee;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 26px;
+}
+
+/* Questions */
+.question {
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+label span {
+    color: #000066;
+    font-weight: bold;
+}
+
+/* Form controls */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+input,
+select {
+    min-height: 44px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #000066;
+    outline-offset: 2px;
+}
+
+/* CSS declaration example */
+pre {
+    background-color: #333;
+    color: #fff;
+    padding: 18px;
+    margin: 12px auto 18px;
+    max-width: 85%;
+    overflow-x: auto;
+}
+
+code {
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 18px;
+    background-color: #000080;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00004d;
+}
+
+/* Smaller screens */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    form {
+        padding: 18px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    pre {
+        max-width: 100%;
+        padding: 14px;
+    }
+}
